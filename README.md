@@ -1,7 +1,5 @@
 # ScriptPortfolio
-Portfolio of Scripts 
-
-Ordered Oldest to Newest
+Portfolio of Scripts (Ordered Oldest to Newest)
 
 
 
