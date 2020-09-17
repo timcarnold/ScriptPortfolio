@@ -1,6 +1,6 @@
-Build Jamf Policy for Internally Connected Macs
-create_jss_internal_policies.py
-7-23-20
+#Build Jamf Policy for Internally Connected Macs
+##create_jss_internal_policies.py
+##7-23-20
 
 
 This script automates the complex task of building the policies for internal only software deployment. We have 2 Internal distribution points (East and West US). These policies overrides default distribution point to the nearest Internal distribution point based upon network segmentation. 
@@ -14,7 +14,7 @@ Once confirmed, the script will POST a response to the Jamf API to build the two
 
 Finally, the admin will be prompted with the follow up steps and the IDs of the two policies created. 
 
-Sanitized:
+###Sanitized:
 orgName
 TARGET_DRIVE 
 NETWORK_SEGMENTS
