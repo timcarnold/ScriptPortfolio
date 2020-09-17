@@ -1,9 +1,9 @@
-Update Utility
-5-1-15
-3 Scripts:
-	Update Reminder Prompt.sh
-	Update Force Prompt.sh
-	PreInstallation Script.sh
+### Update Utility
+##### 5-1-15
+##### 3 Scripts:
+##### 	Update Reminder Prompt.sh
+##### 	Update Force Prompt.sh
+##### 	PreInstallation Script.sh
 
 We needed a process to reliably update computers. Though, the organization had a Union that would inhibit us from forcing updates without prompting users.  So, I devised a two part update process. The first is a “Reminder Prompt” policy that will notify users when an update is pending. Second, on a set date the “Force Install” policy would prompt the user that updates are going to be force and then given a 5 minute grace period to save and close all work. 
 
@@ -20,5 +20,5 @@ When the update was to go live, a Firefox policy would be created, trigger set t
 The “Reminder Prompt” Policy would be edited to now include the created SmartGroup. Anytime a computer checks in - and is in the Smart Group - the prompt script would trigger.
 On the Force Install date, the “Reminder Prompt” would have the Smart Group de-scoped and the “Force Install” Policy would be scoped to the Smart Group. Whenever a computer with a needed update checks in, the user will be prompted and the update installed. 
 
-Sanitized:
+######Sanitized:
 orgName
