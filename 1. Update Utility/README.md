@@ -1,9 +1,9 @@
 ### Update Utility
 ##### 5-1-15
 ##### 3 Scripts:
-##### 	Update Reminder Prompt.sh
-##### 	Update Force Prompt.sh
-##### 	PreInstallation Script.sh
+1. Update Reminder Prompt.sh
+2. Update Force Prompt.sh
+3. PreInstallation Script.sh
 
 We needed a process to reliably update computers. Though, the organization had a Union that would inhibit us from forcing updates without prompting users.  So, I devised a two part update process. The first is a “Reminder Prompt” policy that will notify users when an update is pending. Second, on a set date the “Force Install” policy would prompt the user that updates are going to be force and then given a 5 minute grace period to save and close all work. 
 
