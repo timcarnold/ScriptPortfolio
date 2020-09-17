@@ -20,5 +20,5 @@ When the update was to go live, a Firefox policy would be created, trigger set t
 The “Reminder Prompt” Policy would be edited to now include the created SmartGroup. Anytime a computer checks in - and is in the Smart Group - the prompt script would trigger.
 On the Force Install date, the “Reminder Prompt” would have the Smart Group de-scoped and the “Force Install” Policy would be scoped to the Smart Group. Whenever a computer with a needed update checks in, the user will be prompted and the update installed. 
 
-######Sanitized:
+###### Sanitized:
 orgName
