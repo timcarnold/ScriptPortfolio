@@ -1,6 +1,6 @@
-Prompt user to reset specific TCC setting
-ResetTCCforSpecificApplication.sh
-5-26-20
+### Prompt user to reset specific TCC setting
+##### ResetTCCforSpecificApplication.sh
+##### 5-26-20
 
 Prompts user to chooses an application to reset the TCC Settings.
 

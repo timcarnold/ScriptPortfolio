@@ -1,6 +1,6 @@
-Policy Update via LaunchDaemon
-runPolicyFromDaemon.sh
-4-10-20
+### Policy Update via LaunchDaemon
+##### runPolicyFromDaemon.sh
+##### 4-10-20
 
 You cannot launch a ‘Jamf policy’ command directly from a Self Service policy. This script creates a LaunchDaemon to run a script to run Jamf Policy, when completed the script unloads the LaunchDaemon and removes itself.
 

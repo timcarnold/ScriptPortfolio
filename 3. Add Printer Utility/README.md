@@ -1,6 +1,6 @@
-Add Printer Utility
-AddPrinter_Centrify.sh
-10-13-17
+### Add Printer Utility
+##### AddPrinter_Centrify.sh
+##### 10-13-17
 
 Post Centrify - user’s could not search for printers via Bonjour.
 Created this printer script to query print server, sort based upon building, then sort based upon selection
@@ -11,6 +11,6 @@ Once a printer was selected, the script attempts to locate a driver. The user wa
 
 Finally another Progress bar was put up while the printer was setup. Additionally the requirement to use Kerberos auth was added (auth-info-required=negotiate). Then the user was prompted with a successful message. 
 
-Sanitized:
+###### Sanitized:
 printServer
 orgName

@@ -1,6 +1,6 @@
-Generate Kerberos Ticket and Check Status on AnyConnect connection
-OnConnect_logon.sh
-11-17-17
+### Generate Kerberos Ticket and Check Status on AnyConnect connection
+##### OnConnect_logon.sh
+##### 11-17-17
 
 An OnConnect Script triggered after Cisco AnyConnect esablished a connection
 We were experiencing intermittent Kerberos ticket generation. Our SmartCard Software provider (Centrify) stated they refresh Kerberos tickets when a network state change occurred, but that was very intermittent. 
@@ -11,6 +11,6 @@ If a kerberos ticket was issued successfully, the user would be prompted that th
 
 The script also logged directly to the system log for easy troubleshooting in the field. 
 
-Sanitized:
+###### Sanitized:
 printServer
 orgName
