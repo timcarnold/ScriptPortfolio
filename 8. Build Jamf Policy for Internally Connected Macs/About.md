@@ -1,6 +1,9 @@
 #Build Jamf Policy for Internally Connected Macs
+=======
 ##create_jss_internal_policies.py
+-------
 ##7-23-20
+-------
 
 
 This script automates the complex task of building the policies for internal only software deployment. We have 2 Internal distribution points (East and West US). These policies overrides default distribution point to the nearest Internal distribution point based upon network segmentation. 
